@@ -27,10 +27,21 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
 ></script>
+<style>
+  body {
+      margin: 0;
+      padding: 0;
+      background: url('./assets/images/earth-g4154d5b6f_1920.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+</style>
 </head>
 
 <body >
-  <header>
+   <header>
     <nav class="navbar bg-body-tertiary fixed-top navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Vesmír</a>
@@ -56,7 +67,7 @@
                   <a class="nav-link" href="./articles.html">Články</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./photos.html">Fotogalerie</a>
+                    <a class="nav-link disabled" href="#">Fotogalerie</a>
                   </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -83,7 +94,7 @@
 </header>
 
 
-<div style=" background-image: url('./assets/images/earth-g4154d5b6f_1920.jpg');height: 100vh; background-size: cover; background-position: center;">
+
   <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start text-light">
@@ -112,7 +123,6 @@
       </div>
     </div>
   </div>
-</div>
 
 
 <footer class="bg-dark text-center text-white fixed-bottom">
@@ -161,6 +171,5 @@
   </div>
   <!-- Copyright -->
 </footer>
-
 </body>
 </html>

@@ -27,11 +27,20 @@
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
 ></script>
+<style>
+  body {
+      margin: 0;
+      padding: 0;
+      background: url('./assets/images/eclipse-1492818.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+</style>
 </head>
 
 <body >
-<div class="bg-imadge " style="background-image: url('./assets/images/eclipse-1492818.jpg'); background-attachment: fixed;height: 100vh; background-size: cover; background-position: center;">
-  <header>
     <nav class="navbar bg-body-tertiary fixed-top navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Vesmír</a>
@@ -57,7 +66,7 @@
                   <a class="nav-link" href="./articles.html">Články</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./photos.html">Fotogalerie</a>
+                    <a class="nav-link disabled" href="#">Fotogalerie</a>
                   </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,7 +90,7 @@
           </div>
         </div>
       </nav>
-</header>
+    </header>
 
 
 
@@ -93,7 +102,7 @@
             <h3 class="text-center mb-4">Najdete nás na této adrese</h3>
             <p>Sídlíme nedaleko Petřína, stačí projít kousek parkem od něj, nebo můžete přijet lanofkou a jít cca 200 metrů a jste u nás.</p>
             <p>Strahovská 205, 118 00 Praha 1</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.861510435985!2d14.395736615700802!3d50.081321025726686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94d01b8f47b1%3A0xcdb44e64c7e92e78!2zU3Rlw6Fuw6FuaWtvdmEgZnJhbWEgTsOha8OzZGE!5e0!3m2!1sen!2scz!4v1650682883455!5m2!1sen!2scz" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.861510435985!2d14.395736615700802!3d50.081321025726686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94d01b8f47b1%3A0xcdb44e64c7e92e78!2zU3Rlw6Fuw6FuaWtvdmEgZnJhbWEgTsOha8OzZGE!5e0!3m2!1sen!2scz!4v1650682883455!5m2!1sen!2scz" style="border:0;  width: 65vw; height: 45vw;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
         </div>
@@ -104,53 +113,51 @@
 
 
 
-<footer class="bg-dark text-center text-white sticky-bottom">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light  btn-floating m-1" href="https://www.facebook.com/profile.php?id=100073682410978" role="button" 
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+    <footer class="bg-dark text-center text-white fixed-bottom">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light  btn-floating m-1" href="https://www.facebook.com/profile.php?id=100073682410978" role="button" 
+            ><i class="fab fa-facebook-f"></i
+          ></a>
 
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-primary disabled  btn-floating m-1" href="#" role="button" aria-disabled="true"
-        ><i class="fab fa-twitter"></i
-      ></a>
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-primary disabled  btn-floating m-1" href="#" role="button" aria-disabled="true"
+            ><i class="fab fa-twitter"></i
+          ></a>
 
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="#" role="button" aria-disabled="true"
-        ><i class="fab fa-google"></i
-      ></a>
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="#" role="button" aria-disabled="true"
+            ><i class="fab fa-google"></i
+          ></a>
 
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/rad3k_m/" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/rad3k_m/" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
 
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="#" role="button" aria-disabled="true"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-primary disabled btn-floating m-1" href="#" role="button" aria-disabled="true"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
 
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/RadomirMendricky" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/RadomirMendricky" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2024 Copyright:
-    <a class="text-white" href="https://www.instagram.com/rad3k_m/">Radomír Mendřický</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-
-</div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Copyright:
+        <a class="text-white" href="https://www.instagram.com/rad3k_m/">Radomír Mendřický</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
 </body>
 </html>
